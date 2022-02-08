@@ -1,0 +1,132 @@
+﻿
+@{
+    ViewData["Title"] = "bloglar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Banner -->
+<!-- Note: The "styleN" class below should match that of the header element. -->
+<body>
+
+    <section id="banner" class="style2">
+        <div class="inner">
+            <span class="image">
+                <img src="~/images/banner.jpg" alt="" />
+            </span>
+            <header class="major">
+                <h1>Bloglar</h1>
+            </header>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- one -->
+        <section id="two" class="spotlights">
+            <section>
+                <a asp-action="blog1" class="image">
+                    <img src="~/images/blog1.jpg" alt="" data-position="center center" />
+                </a>
+                <div class="content">
+                    <div class="inner">
+                        <header class="major">
+                            <h3>Alan Adı (Domain) Belirlerken Nelere Dikkat Edilmesi Gerekir?</h3>
+                        </header>
+                        <p>
+                            Bir web sitesinin internet ortamında yayına alınabilmesi için ilk olarak yapılacak iş domain kaydetmektir.
+                            Domain (Alan Adı) web sitenizin internet ortamındaki adresidir. Domain’ler (Alan Adları), teknik olarak bir IP
+                            adresinden oluşur. Her domain’in karşılığı olan en az bir IP adresi vardır. Domain sorgulama ve kayıt işlemleri,
+                            ICANN (The Internet Corporation for Assigned Names and Numbers - İnternet Tahsisli Sayılar ve İsimler Kurumu)
+                            tarafından yetkilendirilen domain kayıt firmaları taraf...
+                        </p>
+                        <ul class="actions">
+                            <li><a asp-action="blog1" class="button">Learn more</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <br />
+                <br />
+                <a asp-action="blog2" class="image">
+                    <img src="~/images/blog2.jpg" alt="" data-position="top center" />
+                </a>
+                <div class="content">
+                    <div class="inner">
+                        <header class="major">
+                            <h3>Yapay Zeka İçeriği Ne Kadar Kişiselleştirebilir?</h3>
+                        </header>
+                        <p>Adobe manşet ve resim seçme sürecini otomatize eden bir araç geliştirdi. Aracın yapay zekası veriyi topluyor ve içeriği farklı kitleler için kişiselleştirmeyi öğreniyor. Bu içeriğin hedeflemesini geliştirecek mi dersiniz? İçerik pazarlamacıları için kişiselleştirme Süper rekabetçi içerik pazarlaması çevresinde kişiselleştirme daha da büyük bir rol oynuyor. Kimse herkes için bir şey yazamaz. Hedef kitlenizi daha iyi...</p>
+                        <ul class="actions">
+                            <li><a asp-action="blog2" class="button">Learn more</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <a asp-action="blog3" class="image">
+                    <img src="~/images/blog3.jpg" alt="" data-position="25% 25%" />
+                </a>
+                <div class="content">
+                    <div class="inner">
+                        <header class="major">
+                            <h3>Makine Öğrenmesi (Machine Learning) Nedir?</h3>
+                        </header>
+                        <p>
+                            Evdeki herkesin Netflix’te farklı ana sayfaya sahip olmasının arkasında, önerilen programların doğrudan tercihlerimizle örtüşmesini sağlayan bir teknoloji ve bu teknolojinin arkasında da Makine Öğrenmesi Nedir? sorusunun yanıtı yer alıyor.
+                            Verilere erişebilen ve beklenen görevleri; tahminler ve tespitler yoluyla otomatik olarak gerçekleştirebilen bilgisayar programlarının geliştirilmesi üzerinde çalışan bu teknoloji; bilgisayar sistemlerinin deneyimlerden öğrenmesine ve geliştirilmesine...
+                        </p>
+                        <ul class="actions">
+                            <li><a asp-action="blog3" class="button">Learn more</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <a asp-action="blog4" class="image">
+                    <img src="~/images/blog4.jpg" alt="" data-position="top center" />
+                </a>
+                <div class="content">
+                    <div class="inner">
+                        <header class="major">
+                            <h3>Siber İstihbarat nedir? Şirketinizdeki Casusu Engelleyin</h3>
+                        </header>
+                        <p>Siber istihbarat, şirketlerin elektronik ortamdan gelebilecek saldırı risklerini ortaya çıkararak, bu saldırılardan nasıl...</p>
+                        <ul class="actions">
+                            <li><a asp-action="blog4" class="button">Learn more</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <a asp-action="blog5" class="image">
+                    <img src="~/images/blog5.png" alt="" data-position="center center" />
+                </a>
+                <div class="content">
+                    <div class="inner">
+                        <header class="major">
+                            <h3>Yapay Zekanın (Ai) İnternet Güvenliğinde Kullanımı</h3>
+                        </header>
+                        <p>
+                            Makine öğrenimi, kuruluşların karşılaştığı güvenlik tehditlerini anlamaya ve personelinizin daha değerli, stratejik görevlere odaklanmasına yardımcı olacaktır.En basit düzeyde, makine öğrenimi "bilgisayarlar için programlanmadan...
+                        </p>
+                        <ul class="actions">
+                            <li><a asp-action="blog5" class="button">Learn more</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Three -->
+        <section id="three">
+            <div class="inner">
+                <ul class="actions">
+                    <li><a asp-action="bloglar" class="button next">Sayfa Başı</a></li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+</body>

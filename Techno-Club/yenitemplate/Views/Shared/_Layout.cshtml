@@ -1,0 +1,116 @@
+﻿@model yenitemplate.Models.GuestResponse
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TECHNO-CLUB</title>
+    <title>Forty by HTML5 UP</title>
+    
+    
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/site.css" rel="stylesheet" />
+    <noscript>
+
+        <link href="~/css/noscript.css" rel="stylesheet" />
+    </noscript>
+</head>
+
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+        <!-- Header -->
+        <header id="header" class="alt">
+
+            <a asp-action="Index" class="logo"><strong>TECHNO</strong> <span> - CLUB</span></a>
+            <nav>
+                <a href="#menu">Menu</a>
+            </nav>
+        </header>
+
+        <!-- Menu -->
+        <partial name="~/Views/Shared/Partials/_MenuPartial.cshtml" />
+
+
+        <div class="row">
+            <div class="col-md-12">
+                @RenderBody()
+            </div>
+        </div>
+        <!-- Contact -->
+        <div id="my">
+            <section id="contact">
+                <div class="inner">
+                    <section>
+                        <form method="post" a asp-action="Thanks">
+                            <div class="fields">
+                                <div class="field half">
+                                    <label for="name">Name</label>
+                                    <input type="text" name="name" id="name" />
+                                </div>
+                                <div class="field half">
+                                    <label for="email">Email</label>
+                                    <input type="text" name="email" id="email" />
+                                </div>
+                                <div class="field">
+                                    <label for="message">Message</label>
+                                    <textarea name="message" id="Message" rows="6"></textarea>
+                                </div>
+                            </div>
+                            <ul class="actions">
+                                <li><input type="submit" value="Send Message" class="primary" /></li>
+                                <li><input type="reset" value="Clear" /></li>
+                            </ul>
+                        </form>
+                    </section>
+                    <section class="split">
+                        <section>
+                            <div class="contact-method">
+                                <span class="icon solid alt fa-envelope"></span>
+                                <h3>Email</h3>
+                                <a href="mailto:mervekose117@gmail.com">mervekose117@gmail.com</a><br />
+                                <a href="mailto:parlakgulnur7@gmail.com">parlakgulnur7@gmail.com</a>
+                            </div>
+                        </section>
+                        <section>
+                            <div class="contact-method">
+                                <span class="icon solid alt fa-phone"></span>
+                                <h3>Phone</h3>
+                                <span>(545) 401-9682</span><br />
+                                <span>(534) 545-1675 </span>
+                            </div>
+                        </section>
+                        <section>
+                            <div class="contact-method">
+                                <span class="icon solid alt fa-home"></span>
+                                <h3>Address</h3>
+                                <span>
+                                    Düzce Üniversitesi<br />
+                                    Merkez/DÜZCE
+                                </span>
+                            </div>
+                        </section>
+                    </section>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer -->
+        <partial name="~/Views/Shared/Components/GuestViewComponent/Default.cshtml"/>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/jquery.scrolly.min.js"></script>
+    <script src="~/js/jquery.scrollex.min.js"></script>
+    <script src="~/js/browser.min.js"></script>
+    <script src="~/js/breakpoints.min.js"></script>
+    <script src="~/js/util.js"></script>
+    <script src="~/js/site.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+
+</body>
+    </html>

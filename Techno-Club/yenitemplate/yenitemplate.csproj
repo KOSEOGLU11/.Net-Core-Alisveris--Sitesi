@@ -1,0 +1,166 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\css\fontawesome-all.min.css" />
+    <Content Remove="wwwroot\css\noscript.css" />
+    <Content Remove="wwwroot\images\banner.jpg" />
+    <Content Remove="wwwroot\images\blog1.jpg" />
+    <Content Remove="wwwroot\images\blog2.jpg" />
+    <Content Remove="wwwroot\images\pic01.jpg" />
+    <Content Remove="wwwroot\images\pic02.jpg" />
+    <Content Remove="wwwroot\images\pic03.jpg" />
+    <Content Remove="wwwroot\images\pic04.jpg" />
+    <Content Remove="wwwroot\images\pic05.jpg" />
+    <Content Remove="wwwroot\images\pic06.jpg" />
+    <Content Remove="wwwroot\images\pic07.jpg" />
+    <Content Remove="wwwroot\images\pic08.jpg" />
+    <Content Remove="wwwroot\images\pic09.jpg" />
+    <Content Remove="wwwroot\images\pic10.jpg" />
+    <Content Remove="wwwroot\images\pic11.jpg" />
+    <Content Remove="wwwroot\js\breakpoints.min.js" />
+    <Content Remove="wwwroot\js\browser.min.js" />
+    <Content Remove="wwwroot\js\jquery.min.js" />
+    <Content Remove="wwwroot\js\jquery.scrollex.min.js" />
+    <Content Remove="wwwroot\js\jquery.scrolly.min.js" />
+    <Content Remove="wwwroot\js\site.js" />
+    <Content Remove="wwwroot\js\util.js" />
+    <Content Remove="wwwroot\sass\base\_page.scss" />
+    <Content Remove="wwwroot\sass\base\_reset.scss" />
+    <Content Remove="wwwroot\sass\base\_typography.scss" />
+    <Content Remove="wwwroot\sass\components\_actions.scss" />
+    <Content Remove="wwwroot\sass\components\_box.scss" />
+    <Content Remove="wwwroot\sass\components\_button.scss" />
+    <Content Remove="wwwroot\sass\components\_contact-method.scss" />
+    <Content Remove="wwwroot\sass\components\_form.scss" />
+    <Content Remove="wwwroot\sass\components\_icon.scss" />
+    <Content Remove="wwwroot\sass\components\_icons.scss" />
+    <Content Remove="wwwroot\sass\components\_image.scss" />
+    <Content Remove="wwwroot\sass\components\_list.scss" />
+    <Content Remove="wwwroot\sass\components\_pagination.scss" />
+    <Content Remove="wwwroot\sass\components\_row.scss" />
+    <Content Remove="wwwroot\sass\components\_section.scss" />
+    <Content Remove="wwwroot\sass\components\_spotlights.scss" />
+    <Content Remove="wwwroot\sass\components\_table.scss" />
+    <Content Remove="wwwroot\sass\components\_tiles.scss" />
+    <Content Remove="wwwroot\sass\layout\_banner.scss" />
+    <Content Remove="wwwroot\sass\layout\_contact.scss" />
+    <Content Remove="wwwroot\sass\layout\_footer.scss" />
+    <Content Remove="wwwroot\sass\layout\_header.scss" />
+    <Content Remove="wwwroot\sass\layout\_main.scss" />
+    <Content Remove="wwwroot\sass\layout\_menu.scss" />
+    <Content Remove="wwwroot\sass\layout\_wrapper.scss" />
+    <Content Remove="wwwroot\sass\libs\_breakpoints.scss" />
+    <Content Remove="wwwroot\sass\libs\_functions.scss" />
+    <Content Remove="wwwroot\sass\libs\_html-grid.scss" />
+    <Content Remove="wwwroot\sass\libs\_mixins.scss" />
+    <Content Remove="wwwroot\sass\libs\_vars.scss" />
+    <Content Remove="wwwroot\sass\libs\_vendor.scss" />
+    <Content Remove="wwwroot\sass\main.scss" />
+    <Content Remove="wwwroot\sass\noscript.scss" />
+    <Content Remove="wwwroot\webfonts\fa-brands-400.eot" />
+    <Content Remove="wwwroot\webfonts\fa-brands-400.svg" />
+    <Content Remove="wwwroot\webfonts\fa-brands-400.ttf" />
+    <Content Remove="wwwroot\webfonts\fa-brands-400.woff" />
+    <Content Remove="wwwroot\webfonts\fa-brands-400.woff2" />
+    <Content Remove="wwwroot\webfonts\fa-regular-400.eot" />
+    <Content Remove="wwwroot\webfonts\fa-regular-400.svg" />
+    <Content Remove="wwwroot\webfonts\fa-regular-400.ttf" />
+    <Content Remove="wwwroot\webfonts\fa-regular-400.woff" />
+    <Content Remove="wwwroot\webfonts\fa-regular-400.woff2" />
+    <Content Remove="wwwroot\webfonts\fa-solid-900.eot" />
+    <Content Remove="wwwroot\webfonts\fa-solid-900.svg" />
+    <Content Remove="wwwroot\webfonts\fa-solid-900.ttf" />
+    <Content Remove="wwwroot\webfonts\fa-solid-900.woff" />
+    <Content Remove="wwwroot\webfonts\fa-solid-900.woff2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\fontawesome-all.min.css" />
+    <None Include="wwwroot\css\noscript.css" />
+    <None Include="wwwroot\images\banner.jpg" />
+    <None Include="wwwroot\images\blog1.jpg" />
+    <None Include="wwwroot\images\blog2.jpg" />
+    <None Include="wwwroot\images\pic01.jpg" />
+    <None Include="wwwroot\images\pic02.jpg" />
+    <None Include="wwwroot\images\pic03.jpg" />
+    <None Include="wwwroot\images\pic04.jpg" />
+    <None Include="wwwroot\images\pic05.jpg" />
+    <None Include="wwwroot\images\pic06.jpg" />
+    <None Include="wwwroot\images\pic07.jpg" />
+    <None Include="wwwroot\images\pic08.jpg" />
+    <None Include="wwwroot\images\pic09.jpg" />
+    <None Include="wwwroot\images\pic10.jpg" />
+    <None Include="wwwroot\images\pic11.jpg" />
+    <None Include="wwwroot\js\breakpoints.min.js" />
+    <None Include="wwwroot\js\browser.min.js" />
+    <None Include="wwwroot\js\jquery.min.js" />
+    <None Include="wwwroot\js\jquery.scrollex.min.js" />
+    <None Include="wwwroot\js\jquery.scrolly.min.js" />
+    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\js\util.js" />
+    <None Include="wwwroot\sass\base\_page.scss" />
+    <None Include="wwwroot\sass\base\_reset.scss" />
+    <None Include="wwwroot\sass\base\_typography.scss" />
+    <None Include="wwwroot\sass\components\_actions.scss" />
+    <None Include="wwwroot\sass\components\_box.scss" />
+    <None Include="wwwroot\sass\components\_button.scss" />
+    <None Include="wwwroot\sass\components\_contact-method.scss" />
+    <None Include="wwwroot\sass\components\_form.scss" />
+    <None Include="wwwroot\sass\components\_icon.scss" />
+    <None Include="wwwroot\sass\components\_icons.scss" />
+    <None Include="wwwroot\sass\components\_image.scss" />
+    <None Include="wwwroot\sass\components\_list.scss" />
+    <None Include="wwwroot\sass\components\_pagination.scss" />
+    <None Include="wwwroot\sass\components\_row.scss" />
+    <None Include="wwwroot\sass\components\_section.scss" />
+    <None Include="wwwroot\sass\components\_spotlights.scss" />
+    <None Include="wwwroot\sass\components\_table.scss" />
+    <None Include="wwwroot\sass\components\_tiles.scss" />
+    <None Include="wwwroot\sass\layout\_banner.scss" />
+    <None Include="wwwroot\sass\layout\_contact.scss" />
+    <None Include="wwwroot\sass\layout\_footer.scss" />
+    <None Include="wwwroot\sass\layout\_header.scss" />
+    <None Include="wwwroot\sass\layout\_main.scss" />
+    <None Include="wwwroot\sass\layout\_menu.scss" />
+    <None Include="wwwroot\sass\layout\_wrapper.scss" />
+    <None Include="wwwroot\sass\libs\_breakpoints.scss" />
+    <None Include="wwwroot\sass\libs\_functions.scss" />
+    <None Include="wwwroot\sass\libs\_html-grid.scss" />
+    <None Include="wwwroot\sass\libs\_mixins.scss" />
+    <None Include="wwwroot\sass\libs\_vars.scss" />
+    <None Include="wwwroot\sass\libs\_vendor.scss" />
+    <None Include="wwwroot\sass\main.scss" />
+    <None Include="wwwroot\sass\noscript.scss" />
+    <None Include="wwwroot\webfonts\fa-brands-400.eot" />
+    <None Include="wwwroot\webfonts\fa-brands-400.svg" />
+    <None Include="wwwroot\webfonts\fa-brands-400.ttf" />
+    <None Include="wwwroot\webfonts\fa-brands-400.woff" />
+    <None Include="wwwroot\webfonts\fa-brands-400.woff2" />
+    <None Include="wwwroot\webfonts\fa-regular-400.eot" />
+    <None Include="wwwroot\webfonts\fa-regular-400.svg" />
+    <None Include="wwwroot\webfonts\fa-regular-400.ttf" />
+    <None Include="wwwroot\webfonts\fa-regular-400.woff" />
+    <None Include="wwwroot\webfonts\fa-regular-400.woff2" />
+    <None Include="wwwroot\webfonts\fa-solid-900.eot" />
+    <None Include="wwwroot\webfonts\fa-solid-900.svg" />
+    <None Include="wwwroot\webfonts\fa-solid-900.ttf" />
+    <None Include="wwwroot\webfonts\fa-solid-900.woff" />
+    <None Include="wwwroot\webfonts\fa-solid-900.woff2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="bootstrap" Version="5.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+</Project>

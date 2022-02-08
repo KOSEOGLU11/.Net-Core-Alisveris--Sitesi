@@ -1,0 +1,91 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<body>
+    <div id="my2">
+        <section id="banner" class="major">
+            <div class="inner">
+                <header class="major">
+                    <h1>Hi, Welcome to Techno-Club</h1>
+                </header>
+                <div class="content">
+                    <p>
+                        Bloglarımız ve gündemdeki son gelişmeleri takip etmek için tıklayın.
+                        
+                    </p>
+                    <ul class="actions">
+                        <li><a href="#one" class="button next scrolly">Get Started</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="main">
+
+        <!-- One -->
+        <section id="one" class="tiles">
+            <article>
+                <span class="image">
+                    <img src="~/images/pic01.jpg" alt="" />
+                </span>
+                <header class="major">
+                    <h3><a asp-action="blog1" class="link"></a>Alan Adı (Domain) Belirlerken Nelere Dikkat Edilmesi Gerekir?</h3>
+                </header>
+            </article>
+            <article>
+                <span class="image">
+                    <img src="~/images/pic02.jpg" alt=""/>
+                </span>
+                <header class="major">
+                    <h3><a asp-action="gelismeler4" class="link"></a>GitHub ve OpenAI'dan kendi kodunu oluşturabilen yapay zeka aracı: Copilot</h3>
+                </header>
+            </article>
+            <article>
+                <span class="image">
+                    <img src="~/images/pic03.jpg" alt="" />
+                </span>
+                <header class="major">
+                    <h3><a asp-action="blog5" class="link">Yapay Zekanın (Ai) İnternet Güvenliğinde Kullanımı</a></h3>
+                </header>
+            </article>
+            <article>
+                <span class="image">
+                    <img src="~/images/pic04.jpg" alt=""/>
+                </span>
+                <header class="major">
+                    <h3><a asp-action="gelimler3" class="link">Metaverse nedir? Neden gelecekte internetin yerini alacak?</a></h3>
+                </header>
+            </article>
+            <article>
+                <span class="image">
+                    <img src="~/images/pic05.jpg" alt=""/>
+                </span>
+                <header class="major">
+                    <h3><a asp-action="gelismeler5" class="link">App Clips, web siteleri ile entegre bir şekilde çalışabilecek</a></h3>
+                </header>
+            </article>
+            <article>
+                <span class="image">
+                    <img src="~/images/pic06.jpg" alt=""/>
+                </span>
+                <header class="major">
+                    <h3><a asp-action="blog2" class="link">Makine Öğrenmesi (Machine Learning) Nedir?</a></h3>
+                </header>
+            </article>
+        </section>
+
+
+        <!-- Two -->
+        <section id="two">
+            <div class="inner">
+                <ul class="actions">
+                    <li><a asp-action="Index" class="button next">Sayfa Başı</a></li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+</body>
+
